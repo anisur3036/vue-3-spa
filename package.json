@@ -1,0 +1,23 @@
+{
+  "name": "my-vue-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16",
+    "vue-router": "^4.0.12",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "vite": "^2.6.4",
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.21",
+    "@tailwindcss/forms": "^0.2.1",
+    "tailwindcss": "^2.2.19",
+    "postcss": "^8.4.3"
+  }
+}

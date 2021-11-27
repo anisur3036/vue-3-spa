@@ -1,0 +1,53 @@
+Arguments: 
+  C:\laragon\bin\nodejs\node-v16\node.exe C:\laragon\bin\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\Anis\cmder\vendor\git-for-windows\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\PuTTY\;C:\HashiCorp\Vagrant\bin;C:\Program Files (x86)\HP\IdrsOCR_15.2.10.1114\;C:\Program Files\Go\bin;C:\Ruby27-x64\bin;C:\Users\Anis\AppData\Local\Microsoft\WindowsApps;C:\Users\Anis\AppData\Local\Programs\Microsoft VS Code\bin;C:\laragon\bin\php\php-8.0.3-Win32-VC16-x64;C:\Users\Anis\AppData\Local\GitHubDesktop\bin;C:\laragon\bin\yarn\bin;C:\Users\Anis\Android\Sdk\tools;C:\Users\Anis\Android\Sdk\platform-tools;C:\Users\Anis\Android\flutter;C:\Users\Anis\Android\flutter\bin;C:\Program Files\JetBrains\PhpStorm 2020.2.2\bin;C:\Program Files\Sublime Text4\;C:\Users\Anis\phantomjs-2.1.1-windows\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\Anis\.dotnet\tools;C:\Users\Anis\AppData\Local\Microsoft\WindowsApps;C:\laragon\bin\nodejs\node-v16;C:\laragon\bin\composer;C:\Program Files\Java\jdk-17.0.1\bin;C:\mysql-8.0.27-winx64\bin;C:\Program Files\JetBrains\PhpStorm 2020.2.2\bin;C:\Users\Anis\go\bin;C:\Program Files\Sublime Text;C:\Users\Anis\cmder\vendor\git-for-windows\bin;C:\Users\Anis\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Anis\cmder\vendor\git-for-windows\mingw64\bin;C:\Users\Anis\cmder\vendor\git-for-windows\usr\bin;C:\Users\Anis\cmder\vendor\bin;C:\Users\Anis\cmder
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\Anis\applications\my-vue-app\package.json: Unexpected string in JSON at position 187
+      at JSON.parse (<anonymous>)
+      at C:\laragon\bin\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\laragon\bin\yarn\lib\cli.js:310:30)
+      at C:\laragon\bin\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "my-vue-app",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.2.16"
+      "vue-router": "^4.0.12",
+      "vuex": "^4.0.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.9.3",
+      "vite": "^2.6.4",
+      "autoprefixer": "^10.4.0",
+      "axios": "^0.21",
+      "@tailwindcss/forms": "^0.2.1",
+      "tailwindcss": "^2.2.19",
+      "postcss": "^8.4.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
